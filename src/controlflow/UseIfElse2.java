@@ -26,16 +26,15 @@ public class UseIfElse2 {
         if(age>age2){
             System.out.println("age is greater than age 2 ");
         }
-        else{
-            System.out.println("age 2 is greater than age 1");
+        else System.out.println("age 2 is greater than age 1");
 
-        }
+
         if (age==age2) {
             System.out.println("age and age 2 are equal");
         }
-            else {
+            else
             System.out.println("age and age2 are not equal");
-        }
+
 
             }
         }
