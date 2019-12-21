@@ -1,6 +1,7 @@
 package controlflow;
 
 public class UseSwitchCase {
+    //it matches food name with menu number. mathces with the case number
 
     public static void main(String[] args) {
         int menuNumber=5;

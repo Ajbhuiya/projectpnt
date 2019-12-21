@@ -4,21 +4,18 @@ public class SmallestNumber {
 
     public static void main(String[] args) {
 //step2:
-        SmallestNumber sm=new SmallestNumber();//create object
-        System.out.println(sm.smallestNumber());//print output
+        SmallestNumber sm = new SmallestNumber();//create object
+        System.out.println(sm.lowestNumber()); //print output
+
     }
 
-    //step 1:now we need to create a method
-    public int smallestNumber() {
-        int number1 = 35;
-        int number2 = 47;
-        int number3 = 24;
-       // Math.min(number1, number2);
+    public int lowestNumber() {
+        int a = 10;
+        int b = 20;
+        int c = 30;
 
-        return Math.min(Math.min(number1, number2), number3);//calling method first.
-        //then we pass parameter
+        return Math.min(Math.min(a, b), c);
+
     }
 
 }
-
-

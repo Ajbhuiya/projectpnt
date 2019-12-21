@@ -8,7 +8,11 @@ public class NamingConvention {
 	//method name starts with small , method name starts with verb+noun ex.doSummation(){}
 	// Interface name starts with capital
 	//constant name all capital ex. static final MAX_WIDTH=45;
-	
-	
 
+    /**
+     *
+     *
+     *
+     */
+//control and shift plus / sign = commenting code
 }
