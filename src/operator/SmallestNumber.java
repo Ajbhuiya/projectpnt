@@ -2,20 +2,31 @@ package operator;
 
 public class SmallestNumber {
 
+    int a = 20;
+    int b = 30;
+    int c = 40;
+
+
     public static void main(String[] args) {
-//step2:
-        SmallestNumber sm = new SmallestNumber();//create object
-        System.out.println(sm.lowestNumber()); //print output
+
+        SmallestNumber sm = new SmallestNumber();
+        System.out.println(sm.smallestNumber());
 
     }
 
-    public int lowestNumber() {
-        int a = 10;
-        int b = 20;
-        int c = 30;
+    public int smallestNumber() {
 
-        return Math.min(Math.min(a, b), c);
+        return Math.max(Math.max(a, b), c);
+
 
     }
 
+    int a1 = 20;
+    int b1 = 30;
+
+    public int sm() {
+
+        return Math.min(a1, b1);
+
+    }
 }
